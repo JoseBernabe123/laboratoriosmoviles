@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dinero"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.417"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.153"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/cash_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/moneda"
+        android:textColor="@color/black"
+        android:textSize="70sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.244"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/five_image_view"
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_heigth"
+        app:layout_constraintEnd_toStartOf="@+id/diez_imageView2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cash_text_view"
+        app:srcCompat="@drawable/five_cents" />
+
+    <ImageView
+        android:id="@+id/diez_imageView2"
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_heigth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/five_image_view"
+        app:layout_constraintTop_toBottomOf="@+id/cash_text_view"
+        app:srcCompat="@drawable/ten_cents" />
+
+    <ImageView
+        android:id="@+id/cora_imageView"
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_heigth"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toStartOf="@+id/dollar_imageView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:srcCompat="@drawable/quarter" />
+
+    <ImageView
+        android:id="@+id/dollar_imageView"
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_heigth"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cora_imageView"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/one_dollar" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/cinco"
+        app:layout_constraintEnd_toEndOf="@+id/five_image_view"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="@+id/five_image_view"
+        app:layout_constraintTop_toBottomOf="@+id/five_image_view" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/diez"
+        app:layout_constraintEnd_toEndOf="@+id/diez_imageView2"
+        app:layout_constraintStart_toStartOf="@+id/diez_imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/diez_imageView2" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/cora"
+        app:layout_constraintEnd_toEndOf="@+id/cora_imageView"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="@+id/cora_imageView"
+        app:layout_constraintTop_toBottomOf="@+id/cora_imageView" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/dollar"
+        app:layout_constraintEnd_toEndOf="@+id/dollar_imageView"
+        app:layout_constraintHorizontal_bias="0.602"
+        app:layout_constraintStart_toStartOf="@+id/dollar_imageView"
+        app:layout_constraintTop_toBottomOf="@+id/dollar_imageView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Labo03</string>
+    <string name="dinero">Cantidad de dinero</string>
+    <string name="moneda">0</string>
+    <string name="cinco">$0.05</string>
+    <string name="diez">$0.10</string>
+    <string name="cora">$0.25</string>
+    <string name="dollar">$1</string>
+</resources>
