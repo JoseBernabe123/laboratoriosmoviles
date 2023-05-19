@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.example.corutinesdemo.app-mergeDebugResources-44:/layout/fragment_main_thread.xml",
+        "source": "com.example.corutinesdemo.app-main-47:/layout/fragment_main_thread.xml"
+    },
+    {
+        "merged": "com.example.corutinesdemo.app-mergeDebugResources-44:/layout/activity_main.xml",
+        "source": "com.example.corutinesdemo.app-main-47:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.corutinesdemo.app-mergeDebugResources-44:/layout/fragment_coroutines.xml",
+        "source": "com.example.corutinesdemo.app-main-47:/layout/fragment_coroutines.xml"
+    },
+    {
+        "merged": "com.example.corutinesdemo.app-mergeDebugResources-44:/layout/fragment_home.xml",
+        "source": "com.example.corutinesdemo.app-main-47:/layout/fragment_home.xml"
+    }
+]
